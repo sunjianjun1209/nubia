@@ -1,0 +1,97 @@
+body,html{
+	background: #f5f5f5;
+}
+.container{
+	width: 850px;
+	margin:60px auto;
+	background:#fff;
+	height: 500px;
+	position: relative;
+}
+.container .logo{
+	background: url(../images/nubia-logo.png)no-repeat center -50px;
+	height: 50px;
+	margin-top: 20px;
+}
+.container .tab_nav{
+	width:370px;
+	margin:30px 0  20px 270px;
+	font-size: 18px;
+	color:#333;
+}
+.container .tab_nav label{
+	cursor:pointer;
+}
+.container .tab_nav .account{
+	color:#e8380d;
+}
+.container .tab_con{
+	width: 360px;
+	height:120px;
+	margin:0 auto;
+}
+.container .tab_con input{
+	width:360px;
+	height:50px;
+	border-radius: 5px;
+	outline:none;
+	border:1px solid #eee;
+}
+.container .tab_con input:nth-child(1){
+	margin-bottom: 25px;
+}
+.container .tab_btn{
+	width:360px;
+	height:50px;
+	margin:0 auto;
+	margin-top: 25px;
+}
+.container .tab_btn button{
+	background: #e8380d;
+	width:360px;
+	height:50px;
+	outline:none;
+	text-align: center;
+	font-size: 18px;
+	color:#fff;
+}
+.container .tab_txt{
+	width: 360px;
+	margin:0 auto;
+	height:50px;
+	line-height:50px;
+	text-align: right;
+}
+.container .tab_txt a{
+	color:black;
+	font-size: 14px;
+}
+.container .tab_txt a:nth-child(1){
+	color:#e8380d;
+	margin: 0 10px;
+}
+.container .tab_txt a:nth-child(2){
+	margin-left:10px;
+}
+.container .tab_oth{
+	width:360px;
+	margin:0 auto;
+	height: 50px;
+	font-size: 18px;
+	margin-top: 25px;
+}
+.container .tab_oth .iconfont{
+	font-size:30px;
+	cursor:pointer;
+
+}
+#passtext{
+	position: absolute;
+	left:605px;
+	top:225px;
+}
+#usertext{
+	position: absolute;
+	top:150px;
+	left:605px;
+}
