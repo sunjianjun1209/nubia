@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel="stylesheet" href="css/reset.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/register.min.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<script src = 'js/require.js' async="true" defer data-main = "js/registermain"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="logo"></div>
+		<div class="tab_con">
+			<input type="text"placeholder="&nbsp;请输入用户名"id="username">
+			<div id="usertext"class="alert alert-danger" role="alert"style="display: none;"><span id = "span1">请输入用户名</span></div>
+			<input type="text"placeholder="&nbsp;密码为6-16个字符（数字、字母、符号至少包含两种）"id="password">
+			<div id="passtext"class="alert alert-danger" role="alert"style="display: none;"><span id = "span2">请输入密码</span></div>
+			<input type="text"placeholder="&nbsp;请输入验证码（不区分大小写）"id="verify">
+			<img src="images/draw.action.jpg" alt="">
+			<div id="verifytext"class="alert alert-danger" role="alert"style="display: none;"><span id = "span3">请输入验证码</span></div>
+			<input type="text"placeholder="&nbsp;请输入手机号"id="phone">
+			<div id="phonetext"class="alert alert-danger" role="alert"style="display: none;"><span id="span4">请填写手机号</span></div>
+		</div>
+		<div class="agreement">
+			<input type="checkbox" value="n"/>
+			<span>我已阅读并接受</span>
+			<a href="">用户协议</a>
+			<span>和</span>
+			<a href="">隐私政策</a>    
+		</div>
+		<div class="btn_box">
+			<input type="button"value="提交" id='btn'>
+		</div>
+		<div class="tab-login">
+			<span>已有账号，</span>
+			<a href="http://localhost:8808/login.html">直接登录</a>
+		</div>
+
+
+		
+
+	</div>
+</body>
+</html>

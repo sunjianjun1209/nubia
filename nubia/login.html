@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<link rel="stylesheet" href="css/reset.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/login.min.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<script src = 'js/require.js' async="true" defer data-main = "js/loginmain"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="logo"></div>
+		<div class="tab_nav">
+			<label for="" class="account">努比亚账号登录</label>
+			|
+			<label for="" class="mobile">手机验证码登录</label>
+		</div>
+		<div class="tab_con">
+			<input type="text"placeholder="邮箱/手机号码/用户名"id="username">
+			<div id="usertext"class="alert alert-danger" role="alert"style="display: none;"><span id = "span2">请输入正确的用户名</span></div>
+			<input type="text"placeholder="密码为6-16个字符（数字、字母、符号至少包含两种）"id="password">
+			<div id="passtext"class="alert alert-danger" role="alert"style="display: none;"><span id="span">密码输入不正确</span></div>
+		</div>
+		<div class="tab_btn">
+			<button id="btn" >立即登录</button>
+		</div>
+		<div class="tab_txt">
+			<a href="http://localhost:8808/register.html" id='register'>注册账号</a>
+			|
+			<a href="#">忘记密码？</a>
+		</div>
+		<div class="tab_oth">
+			<span>其他方式登录：</span>
+			<i class="iconfont">&#xe60a;</i>
+			<i class="iconfont">&#xe62d;</i>
+		</div>
+
+
+
+	</div>
+</body>
+</html>

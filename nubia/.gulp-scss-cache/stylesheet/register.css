@@ -1,0 +1,93 @@
+body, html {
+  background: #f5f5f5; }
+
+.container {
+  width: 850px;
+  margin: 60px auto;
+  background: #fff;
+  height: 600px;
+  position: relative; }
+
+.container .logo {
+  background: url(../images/nubia-logo.png) no-repeat center -50px;
+  height: 50px;
+  margin-top: 20px; }
+
+.container .tab_con {
+  width: 360px;
+  margin: 0 auto;
+  margin-top: 30px; }
+
+.container .tab_con input {
+  width: 360px;
+  height: 50px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 25px; }
+
+#verify {
+  width: 240px; }
+
+.container .tab_con img {
+  position: absolute;
+  height: 50px;
+  width: 115px; }
+
+.container .agreement {
+  width: 360px;
+  text-align: left;
+  line-height: 30px;
+  height: 30px;
+  margin: 0 auto; }
+
+.container .agreement a {
+  color: #e8380d; }
+
+.container .btn_box {
+  width: 360px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 10px; }
+
+.container .btn_box input {
+  width: 360px;
+  height: 50px;
+  background: #e8380d;
+  color: #FFF; }
+
+.container .tab-login {
+  width: 360px;
+  height: 30px;
+  margin: 20px auto;
+  text-align: right;
+  line-height: 30px; }
+
+.container .tab-login a {
+  color: #e8380d; }
+
+#usertext {
+  position: absolute;
+  left: 610px;
+  top: 100px; }
+
+#passtext {
+  position: absolute;
+  top: 170px;
+  left: 610px; }
+
+#verifytext {
+  position: absolute;
+  left: 610px;
+  top: 250px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  line-height: 25px; }
+
+#phonetext {
+  position: absolute;
+  top: 325px;
+  left: 610px; }
+
+/*# sourceMappingURL=register.css.map */
